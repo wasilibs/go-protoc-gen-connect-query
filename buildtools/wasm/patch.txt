@@ -1,0 +1,16 @@
+--- dist/protoc-gen-connect-query.js	2024-02-15 14:03:07.920665520 +0900
++++ dist/protoc-gen-connect-query-new.js	2024-02-15 14:04:07.080581211 +0900
+@@ -1,3 +1,5 @@
++import { exit, err as stderr, in as stdin, out as stdout } from "std";
++
+ var __create = Object.create;
+ var __defProp = Object.defineProperty;
+ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+@@ -172091,7 +172093,6 @@
+ 
+ // run-quickjs.ts
+ init_esm();
+-import { exit, err as stderr, in as stdin, out as stdout } from "std";
+ 
+ // error.ts
+ var PluginOptionError2 = class extends Error {
