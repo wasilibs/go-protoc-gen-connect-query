@@ -1,16 +1,19 @@
---- dist/protoc-gen-connect-query.js	2024-02-15 14:03:07.920665520 +0900
-+++ dist/protoc-gen-connect-query-new.js	2024-02-15 14:04:07.080581211 +0900
-@@ -1,3 +1,5 @@
+--- dist/protoc-gen-connect-query.js	2024-03-28 14:42:04.169048901 +0900
++++ dist/protoc-gen-connect-query-new.js	2024-03-28 14:43:02.465346636 +0900
+@@ -1,3 +1,6 @@
++// run-quickjs.ts
 +import { exit, err as stderr, in as stdin, out as stdout } from "std";
 +
  var __create = Object.create;
  var __defProp = Object.defineProperty;
  var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-@@ -172091,7 +172093,6 @@
+@@ -172884,9 +172887,6 @@
+ // protoc-gen-connect-query.ts
+ var import_protoc_gen_connect_query_plugin = __toESM(require_protoc_gen_connect_query_plugin(), 1);
  
- // run-quickjs.ts
- init_esm();
+-// run-quickjs.ts
 -import { exit, err as stderr, in as stdin, out as stdout } from "std";
- 
- // error.ts
- var PluginOptionError2 = class extends Error {
+-
+ // node_modules/.pnpm/@bufbuild+protobuf@1.8.0/node_modules/@bufbuild/protobuf/dist/esm/private/assert.js
+ function assert(condition, msg) {
+   if (!condition) {
