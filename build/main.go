@@ -7,8 +7,8 @@ import (
 
 func main() {
 	tasks.Define(tasks.Params{
-		LibraryName: "protoc",
-		LibraryRepo: "protocolbuffers/protobuf",
+		LibraryName: "protoc-gen-connect-query",
+		LibraryRepo: "connectrpc/connect-query",
 		GoReleaser:  true,
 	})
 	boot.Main()
