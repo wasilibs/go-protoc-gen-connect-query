@@ -9,7 +9,7 @@ import (
 )
 
 func TestBuf(t *testing.T) {
-	if err := os.RemoveAll(filepath.Join("build", "buf")); err != nil {
+	if err := os.RemoveAll(filepath.Join("out", "buf")); err != nil {
 		t.Fatalf("failed to remove build directory: %v", err)
 	}
 
@@ -23,9 +23,9 @@ func TestBuf(t *testing.T) {
 	}
 
 	for _, path := range []string{
-		filepath.Join("build", "buf", "es", "helloworld-Greeter_connectquery.d.ts"),
-		filepath.Join("build", "buf", "es", "helloworld-Greeter_connectquery.js"),
-		filepath.Join("build", "buf", "ts", "helloworld-Greeter_connectquery.ts"),
+		filepath.Join("out", "buf", "es", "helloworld-Greeter_connectquery.d.ts"),
+		filepath.Join("out", "buf", "es", "helloworld-Greeter_connectquery.js"),
+		filepath.Join("out", "buf", "ts", "helloworld-Greeter_connectquery.ts"),
 	} {
 		if _, err := os.Stat(path); err != nil {
 			t.Errorf("failed to stat %v: %v", path, err)
