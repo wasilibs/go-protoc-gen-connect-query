@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.9.0
     version: 1.9.0
   '@connectrpc/protoc-gen-connect-query':
-    specifier: 1.4.0
-    version: 1.4.0
+    specifier: 1.4.1
+    version: 1.4.1
   '@types/quickjs':
     specifier: github:Gottox/quickjs-dts
     version: github.com/Gottox/quickjs-dts/c4bbd816ce58ba0b8f40eaef960f31b49f737bcc
@@ -43,8 +43,8 @@ packages:
       - supports-color
     dev: true
 
-  /@connectrpc/protoc-gen-connect-query@1.4.0:
-    resolution: {integrity: sha512-w/nsyo2p7pzkvu/kf5DtzPlGt5VaaXDHlsg8z7vJQIHgwfFgOfqRCyyw1y2mT6G9JFU3opdtKOcLlJJYfobRxg==}
+  /@connectrpc/protoc-gen-connect-query@1.4.1:
+    resolution: {integrity: sha512-L/x+f1x+GWgfsGvRs2XZjdX044cchIAiNOSWQFavOrfHadZD8Kb8qFykHHDj7Cw+7CyQ7+SeW5UxtIkBB1WB3Q==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
