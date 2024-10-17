@@ -14,5 +14,4 @@ jobs:
     uses: wasilibs/actions/.github/workflows/update-node.yaml@4f1fc34b105780b451ecf7f5bf7834c495f6c23c
     with:
       packages: "@connectrpc/*"
-      no-update: true
     secrets: inherit
