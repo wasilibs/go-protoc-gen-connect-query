@@ -1,4 +1,4 @@
-module github.com/wasilibs/go-protoc-gen-connect-query
+module github.com/wasilibs/go-protoc-gen-connect-query/v2
 
 go 1.22
 

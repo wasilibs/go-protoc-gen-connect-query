@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/wasilibs/go-protoc-gen-connect-query/internal/runner"
-	"github.com/wasilibs/go-protoc-gen-connect-query/internal/wasm"
+	"github.com/wasilibs/go-protoc-gen-connect-query/v2/internal/runner"
+	"github.com/wasilibs/go-protoc-gen-connect-query/v2/internal/wasm"
 )
 
 func main() {
