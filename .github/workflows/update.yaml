@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    uses: wasilibs/actions/.github/workflows/update-node.yaml@4f1fc34b105780b451ecf7f5bf7834c495f6c23c
+    uses: wasilibs/actions/.github/workflows/update-node.yaml@3a74924c1d1fdcf313557c374a13a102a4614a25
     with:
-      packages: "@connectrpc/*"
+      packages: "@connectrpc/protoc-gen-connect-query"
     secrets: inherit
