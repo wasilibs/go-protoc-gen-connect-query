@@ -3,12 +3,10 @@ on:
   push:
     branches:
       - main
-    tags:
-      - "*"
   pull_request:
   workflow_dispatch:
 
 jobs:
   build:
-    uses: wasilibs/actions/.github/workflows/ci.yaml@d544cfa1f0efe329ff95b2be38dc9ebbd08b6b83
+    uses: wasilibs/actions/.github/workflows/ci.yaml@210b313e3518057fb10083464e623bd154660309
     secrets: inherit
