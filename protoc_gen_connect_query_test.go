@@ -1,4 +1,4 @@
-package protoc_gen_connect_es
+package protocgenconnectes
 
 import (
 	"bytes"
@@ -14,7 +14,7 @@ func TestBuf(t *testing.T) {
 	}
 
 	output := bytes.Buffer{}
-	cmd := exec.Command("go", "run", "github.com/bufbuild/buf/cmd/buf@v1.30.0", "generate")
+	cmd := exec.Command("go", "run", "github.com/bufbuild/buf/cmd/buf@"+verBuf, "generate")
 	cmd.Stderr = &output
 	cmd.Stdout = &output
 	cmd.Dir = "testdata"
