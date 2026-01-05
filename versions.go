@@ -1,4 +1,4 @@
 package protocgenconnectes
 
 // renovate: github.com/bufbuild/buf
-const verBuf = "v1.59.0"
+const verBuf = "v1.62.1"
