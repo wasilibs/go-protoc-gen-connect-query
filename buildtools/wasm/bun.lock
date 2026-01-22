@@ -1,12 +1,13 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "wasm",
       "dependencies": {
         "@bufbuild/protobuf": "2.9.0",
         "@bufbuild/protoc-gen-connect-query": "^0.4.1",
-        "@bufbuild/protoplugin": "2.9.0",
+        "@bufbuild/protoplugin": "2.11.0",
         "@connectrpc/protoc-gen-connect-query": "2.2.0",
       },
       "devDependencies": {
@@ -22,7 +23,7 @@
 
     "@bufbuild/protoc-gen-connect-query": ["@bufbuild/protoc-gen-connect-query@0.4.1", "", { "dependencies": { "@bufbuild/protobuf": "^1.3.0", "@bufbuild/protoplugin": "^1.3.0" }, "peerDependencies": { "@bufbuild/protoc-gen-es": "1.x" }, "optionalPeers": ["@bufbuild/protoc-gen-es"], "bin": { "protoc-gen-connect-query": "bin/protoc-gen-connect-query" } }, "sha512-tSKaFODEnT9j+Nz1BswbYEbRzE4JGHIdYksOPVKtUPDa+NN0sbxDIFVvBkVAr4mKi7Ekrde3sT2BeEcbtdOBSQ=="],
 
-    "@bufbuild/protoplugin": ["@bufbuild/protoplugin@2.9.0", "", { "dependencies": { "@bufbuild/protobuf": "2.9.0", "@typescript/vfs": "^1.5.2", "typescript": "5.4.5" } }, "sha512-uoiwNVYoTq+AyqaV1L6pBazGx5fXOO89L0NSR9/7hEfo0Y8n9T1jsKGu4mkitLmP3z+8gJREaule1mMuKBPyYw=="],
+    "@bufbuild/protoplugin": ["@bufbuild/protoplugin@2.11.0", "", { "dependencies": { "@bufbuild/protobuf": "2.11.0", "@typescript/vfs": "^1.6.2", "typescript": "5.4.5" } }, "sha512-lyZVNFUHArIOt4W0+dwYBe5GBwbKzbOy8ObaloEqsw9Mmiwv2O48TwddDoHN4itylC+BaEGqFdI1W8WQt2vWJQ=="],
 
     "@connectrpc/protoc-gen-connect-query": ["@connectrpc/protoc-gen-connect-query@2.2.0", "", { "dependencies": { "@bufbuild/protobuf": "^2.5.1", "@bufbuild/protoplugin": "^2.2.1" }, "peerDependencies": { "@bufbuild/protoc-gen-es": "2.x" }, "optionalPeers": ["@bufbuild/protoc-gen-es"], "bin": { "protoc-gen-connect-query": "bin/protoc-gen-connect-query" } }, "sha512-MC+Yn3GjqfmdXnmzixylbnAF6viX5y30PTj9gBXTPwyvA5s9iarWV3FKdjT4IcfQYQIJv11e7LrJ2eFZ6vGAUA=="],
 
@@ -30,7 +31,7 @@
 
     "@types/quickjs": ["@types/quickjs@github:Gottox/quickjs-dts#c4bbd81", {}, "Gottox-quickjs-dts-c4bbd81"],
 
-    "@typescript/vfs": ["@typescript/vfs@1.6.1", "", { "dependencies": { "debug": "^4.1.1" }, "peerDependencies": { "typescript": "*" } }, "sha512-JwoxboBh7Oz1v38tPbkrZ62ZXNHAk9bJ7c9x0eI5zBfBnBYGhURdbnh7Z4smN/MV48Y5OCcZb58n972UtbazsA=="],
+    "@typescript/vfs": ["@typescript/vfs@1.6.2", "", { "dependencies": { "debug": "^4.1.1" }, "peerDependencies": { "typescript": "*" } }, "sha512-hoBwJwcbKHmvd2QVebiytN1aELvpk9B74B4L1mFm/XT1Q/VOYAWl2vQ9AWRFtQq8zmz6enTpfTV8WRc4ATjW/g=="],
 
     "debug": ["debug@4.4.0", "", { "dependencies": { "ms": "^2.1.3" } }, "sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA=="],
 
@@ -46,8 +47,18 @@
 
     "@bufbuild/protoc-gen-connect-query/@bufbuild/protoplugin": ["@bufbuild/protoplugin@1.10.1", "", { "dependencies": { "@bufbuild/protobuf": "1.10.1", "@typescript/vfs": "^1.4.0", "typescript": "4.5.2" } }, "sha512-LaSbfwabAFIvbVnbn8jWwElRoffCIxhVraO8arliVwWupWezHLXgqPHEYLXZY/SsAR+/YsFBQJa8tAGtNPJyaQ=="],
 
+    "@bufbuild/protoplugin/@bufbuild/protobuf": ["@bufbuild/protobuf@2.11.0", "", {}, "sha512-sBXGT13cpmPR5BMgHE6UEEfEaShh5Ror6rfN3yEK5si7QVrtZg8LEPQb0VVhiLRUslD2yLnXtnRzG035J/mZXQ=="],
+
     "@bufbuild/protoplugin/typescript": ["typescript@5.4.5", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ=="],
 
+    "@connectrpc/protoc-gen-connect-query/@bufbuild/protoplugin": ["@bufbuild/protoplugin@2.9.0", "", { "dependencies": { "@bufbuild/protobuf": "2.9.0", "@typescript/vfs": "^1.5.2", "typescript": "5.4.5" } }, "sha512-uoiwNVYoTq+AyqaV1L6pBazGx5fXOO89L0NSR9/7hEfo0Y8n9T1jsKGu4mkitLmP3z+8gJREaule1mMuKBPyYw=="],
+
+    "@bufbuild/protoc-gen-connect-query/@bufbuild/protoplugin/@typescript/vfs": ["@typescript/vfs@1.6.1", "", { "dependencies": { "debug": "^4.1.1" }, "peerDependencies": { "typescript": "*" } }, "sha512-JwoxboBh7Oz1v38tPbkrZ62ZXNHAk9bJ7c9x0eI5zBfBnBYGhURdbnh7Z4smN/MV48Y5OCcZb58n972UtbazsA=="],
+
     "@bufbuild/protoc-gen-connect-query/@bufbuild/protoplugin/typescript": ["typescript@4.5.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw=="],
+
+    "@connectrpc/protoc-gen-connect-query/@bufbuild/protoplugin/@typescript/vfs": ["@typescript/vfs@1.6.1", "", { "dependencies": { "debug": "^4.1.1" }, "peerDependencies": { "typescript": "*" } }, "sha512-JwoxboBh7Oz1v38tPbkrZ62ZXNHAk9bJ7c9x0eI5zBfBnBYGhURdbnh7Z4smN/MV48Y5OCcZb58n972UtbazsA=="],
+
+    "@connectrpc/protoc-gen-connect-query/@bufbuild/protoplugin/typescript": ["typescript@5.4.5", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ=="],
   }
 }
