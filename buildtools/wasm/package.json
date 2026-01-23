@@ -13,13 +13,13 @@
   "dependencies": {
     "@bufbuild/protobuf": "2.11.0",
     "@bufbuild/protoc-gen-connect-query": "^0.4.1",
-    "@bufbuild/protoplugin": "2.9.0",
+    "@bufbuild/protoplugin": "2.11.0",
     "@connectrpc/protoc-gen-connect-query": "2.2.0"
   },
   "devDependencies": {
     "@types/quickjs": "github:Gottox/quickjs-dts",
-    "@types/node": "^25.0.0",
-    "prettier": "^3.6.2",
+    "@types/node": "^25.0.10",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   }
 }
