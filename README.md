@@ -31,7 +31,7 @@ plugins:
     path:
       - "go"
       - "run"
-      - "github.com/wasilibs/go-protoc-gen-connect-query/cmd/protoc-gen-connect-query@latest"
+      - "github.com/wasilibs/go-protoc-gen-connect-query/v2/cmd/protoc-gen-connect-query@latest"
 ```
 
 This makes it possible to have full protobuf/gRPC generation with no installation of tools,
