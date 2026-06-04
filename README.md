@@ -12,7 +12,7 @@ Precompiled binaries are available in the [releases](https://github.com/wasilibs
 Alternatively, install the plugin using `go install`.
 
 ```bash
-$ go install github.com/wasilibs/go-protoc-gen-connect-query/cmd/protoc-gen-connect-query@latest
+$ go install github.com/wasilibs/go-protoc-gen-connect-query/v2/cmd/protoc-gen-connect-query@latest
 ```
 
 As long as `$GOPATH/bin`, e.g. `~/go/bin` is on the `PATH`, you can use it with protoc as normal.
