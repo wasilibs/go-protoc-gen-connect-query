@@ -13,5 +13,5 @@ jobs:
   build:
     uses: wasilibs/actions/.github/workflows/update-node.yaml@5bf268fde802fe591d6148e69a7ddb046384d657
     with:
-      packages: "@bufbuild/protoc-gen-connect-query"
+      packages: "@connectrpc/protoc-gen-connect-query"
     secrets: inherit
